@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+    body .btn_options {
+        display: flex;
+    }
+
+    .users__options :is(.btn_tumbler, .btn_add-user, .btn_analyze, .btn_predict, .btn_remove) {
+        display: none;
+    }
+
+    .btn:after, .btn:before {
+        display: none;
+    }
+}
